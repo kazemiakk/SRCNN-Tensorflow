@@ -13,7 +13,7 @@ This code requires Tensorflow. Also scipy is used instead of Matlab or OpenCV. E
 For training, `python main.py`
 <br>
 For testing, `python main.py --is_train False --stride 21`
-
+this is useful!
 ## Result
 After training 15,000 epochs, I got similar super-resolved image to reference paper. Training time takes 12 hours 16 minutes and 1.41 seconds. My desktop performance is Intel I7-6700 CPU, GTX970, and 16GB RAM. Result images are shown below.<br><br>
 Original butterfly image:
