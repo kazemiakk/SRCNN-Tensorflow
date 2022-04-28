@@ -105,9 +105,10 @@ class SRCNN(object):
             print("Epoch: [%2d], step: [%2d], time: [%4.4f], loss: [%.8f]" \
               % ((ep+1), counter, time.time()-start_time, err))
 
-          if counter % 500 == 0:
+          if counter % 3 == 0:
             self.save(config.checkpoint_dir, counter)
 
+            
     else:
       print("Testing...")
 
